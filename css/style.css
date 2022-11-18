@@ -2,16 +2,17 @@
 .main-icon {
     width: 80px;
     height: 80px;
-    margin-right: 200px;
+    border-radius: 25px;    
 }
 .header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 130px;   
     position: fixed;
-    top: 0px;  
+    top: 0px;
     left: 0px;
+    right: 0px;      
 }
 .navigation {
     display: flex;
@@ -27,5 +28,95 @@
 .nav-font {
     font-size: 30px;
     font-weight: 600;
-    color: rgb(237, 49, 202);
+    color: rgb(175, 27, 108);
+    text-shadow: 4px 2px 2px white;
+    letter-spacing: -2px;
+    text-transform: capitalize;    
+}
+/* first section styling */
+.home-section {
+    background-image: url(../images/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1700px;
+    height: 800px;
+    margin: 0 auto;
+    
+}
+.homeparagraph {
+    color: white;
+    width: 500px;
+    padding-top: 250px;
+    padding-left: 100px;
+}
+.homeparagraph h1 {
+    font-size: 60px;
+    text-align-last: right;
+    line-height: 1.3;
+    text-shadow: 4px 2px 2px rgb(175, 27, 108);
+    font-weight: 700;
+}
+.homeparagraph :nth-child(2) {
+    font-size: 35px;
+    color: rgb(175, 27, 108);
+    text-align: right;
+    text-shadow: 4px 2px 2px white;
+    
+}
+.homeparagraph :nth-child(3) {
+    font-size: 40px;
+    margin-top: 80px;
+    color: white;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px rgb(175, 27, 108);
+}    
+/* second section styling  */
+.hairsalon {
+    background-color: antiquewhite;
+    max-width: 1700px;
+    height: 900px;
+    margin: 50px auto;
+    padding: 110PX 40px;
+    display: flex;
+}
+.hairsalon h2 {
+    color: rgb(165, 52, 90);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -2px;
+    display: flex;
+}
+.hairsalon P {
+    color: rgb(161, 68, 99);
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: -1px;
+    margin-top: 10px;
+}
+.pricelist {
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 70px;
+    line-height: 1.3;
+    width: 40%;
+}
+.pricelist h5 {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.right-box {
+    width: 60%;    
+}
+.right-box div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+.right-box :nth-child(2) {
+    background-image: url(../images/eb8f2bc9a9a62ed2d4e00382ab0eecc2.jpg);
 }
