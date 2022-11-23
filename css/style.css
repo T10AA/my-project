@@ -126,3 +126,17 @@
     font-weight: 500;
     cursor:default;
 }
+/* Nail Bar section styling */
+.NailBar {
+    background-image: url(../images/Salon-Tyrellstown.jpg);
+    max-width: 1700px;
+    height: 600px;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 25px;    
+}
+.NailBar h3 {
+    font-size: 65px;
+}
