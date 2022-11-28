@@ -73,32 +73,36 @@
 }    
 /* second section styling  */
 .hairsalon {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     max-width: 1700px;
     height: 900px;
     margin: 50px auto;
     padding: 110PX 40px;
-    
+    display: flex;
+    justify-content: space-between;
 }   
-.hairsalon h2 {
+.salonService h2 {
+    margin-top: 60px;
     color: rgb(165, 52, 90);
     font-size: 35px;
     text-align: center;
     font-weight: 600;
-    letter-spacing: -2px;    
+    letter-spacing: -2px;
+    width: 100%;    
 }
-.hairsalon P {
+.salonService P {
     color: rgb(161, 68, 99);
     text-align: center;
     font-size: 25px;
     letter-spacing: -1px;
     margin-top: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    width: 100%;
 }
 .pricelist {
     font-size: 30px;
     line-height: 1.5;
-    width: 700px;
+    width: 40%;
     height: 600px;
     display: inline-block;
     vertical-align: top;
@@ -111,7 +115,7 @@
 }
 .right-box {
     background-color: rgb(229, 207, 179);;
-    width: 700px;
+    width: 50%;
     height: 600px;
     display: inline-block;
     vertical-align: top;
@@ -129,8 +133,8 @@
 /* Nail Bar section styling */
 .NailBar {
     background-image: url(../images/Salon-Tyrellstown.jpg);
-    max-width: 1700px;
-    height: 600px;
+    max-width: 1200px;
+    height: 500px;
     margin: 50px auto;
     background-repeat: no-repeat;
     background-position:center;
